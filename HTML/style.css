@@ -13,7 +13,7 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(./pexels-rahul-695644.jpg);
+  background-image: url(./light.jpg);
   background-size: cover;
   background-position: center;
   color: wheat;
@@ -84,22 +84,14 @@ h4 {
   letter-spacing: 2px;
   font-size: 20px;
 }
-.newslatter form {
-  width: 380px;
-  max-width: 380px;
-  position: relative;
+
+#letsStart:hover{
+
+  background-color: white;
+  color: #f9004d;
 }
-.newslatter form input:first-child {
-  display: inline-block;
-  width: 100%;
-  padding: 14px 130px 14px 15px;
-  border: 2px solid #f9004d;
-  outline: none;
-  border-radius: 30px;
-}
-.newslatter form input:last-child {
-  position: absolute;
-  display: inline-block;
+.newslatter form a {
+  margin-left: 40%;
   outline: none;
   border: none;
   padding: 10px 30px;
@@ -187,7 +179,7 @@ button:hover {
   min-height: 400px;
 }
 .card {
-  height: 365px;
+  height: auto;
   width: 335px;
   padding: 20px 35px;
   background: #968a8a;
@@ -341,5 +333,6 @@ footer {
   padding: 1.5%;
   color: #f9004d;
   font-size: 28px;
+  background-color: white;
   text-align: center;
 }
