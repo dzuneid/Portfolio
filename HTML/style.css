@@ -11,19 +11,12 @@
   margin-top: 50px;
 }
 .hero {
-<<<<<<< HEAD
   height: 100vh;
   width: 100%;
   background-image: url(./light.jpg);
   background-size: cover;
   background-position: center;
   color: wheat;
-=======
-  height: 800px;
-  background-image: url(./pexels-rahul-695644.jpg);
-background-size: cover;
-background-position: center;
->>>>>>> d67fc040590c53a32dbe9372b5109d0ed1f797a1
 }
 nav {
   display: flex;
